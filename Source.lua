@@ -117,6 +117,13 @@ GTS:NewButton('M481', 'Get the M481 gun!', function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
 end)
 
+GTS:NewButton('AK-47', 'Get the AK-47 gun!', function()
+	local x = 310.04
+	local y = 271.7
+	local z = 137.09
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
 TTS:NewButton('Spawn', 'Teleport to spawn', function()
 	local x = 324.54
 	local y = 511.5
@@ -131,7 +138,7 @@ TTS:NewButton('Cameras', 'Teleport to cameras', function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
 end)
 
-TTS:NewButton('Chamber', 'Teleport to chamber', function()
+TTS:NewButton('Pack A Punch', 'Teleport to pack a punch', function()
 	local x = 281
 	local y = 325.5
 	local z = 784
