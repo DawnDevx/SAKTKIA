@@ -89,10 +89,31 @@ GTS:NewButton('Pistol', 'Get the pistol gun!', function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
 end)
 
-GTS:NewButton('M1014', 'Get the gun M014 gun', function()
+GTS:NewButton('M1014', 'Get the gun M014 gun!', function()
 	local x = 147.87
 	local y = 259.7
 	local z = 315.49
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+GTS:NewButton('MI6A2', 'Get the MI6A2 gun!', function()
+	local x = 4.15
+	local y = 267.7
+	local z = 179.9
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+GTS:NewButton('R870', 'Get the R870 gun!', function()
+	local x = 137.56
+	local y = 333.5
+	local z = 497.94
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+GTS:NewButton('M481', 'Get the M481 gun!', function()
+	local x = 370.97
+	local y = 323.5
+	local z = 650.87
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
 end)
 
