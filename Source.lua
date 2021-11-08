@@ -82,6 +82,13 @@ GTS:NewButton('Assult Gun', 'Get the assult gun!', function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
 end)
 
+GTS:NewButton('Pistol', 'Get the pistol gun!', function()
+	local x = 164.87
+	local y = 343.5
+	local z = 607.16
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
 TTS:NewButton('Spawn', 'Teleport to spawn', function()
 	local x = 324.54
 	local y = 511.5
